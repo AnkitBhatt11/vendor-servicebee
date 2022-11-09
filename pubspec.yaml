@@ -1,0 +1,77 @@
+name: wellcare
+description: A new Flutter project.
+
+publish_to: "none" 
+
+version: 1.0.2+2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.2.0
+  cupertino_icons: ^1.0.4
+  animator: ^3.1.0
+  font_awesome_flutter: ^9.2.0
+  country_pickers: ^2.0.0
+  pinput: ^1.2.2
+  intl: ^0.17.0
+  image_picker: ^0.8.4+4
+  persistent_bottom_nav_bar: ^4.0.2
+  dotted_line: ^3.1.0
+ 
+  carousel_slider: ^4.0.0
+  badges: ^2.0.2
+  fluttertoast: ^8.0.9
+  dio: ^4.0.4
+  shared_preferences: ^2.0.13
+  flutter_rating_bar: ^4.0.0
+  change_app_package_name: ^1.1.0
+
+  google_maps_flutter: ^2.1.1
+
+  sms_autofill: ^2.2.0
+  pull_to_refresh: ^2.0.0
+  otp_autofill: ^2.1.0
+  pin_code_fields: ^7.3.0
+  rxdart: ^0.27.0
+ # flutter_google_places: ^0.2.4
+  fragment_navigate: 1.2.0+1
+  google_place: ^0.4.7
+  flutter_google_places_hoc081098: ^1.1.0
+  url_launcher: ^6.1.5
+  
+  firebase_in_app_messaging: ^0.6.0+26
+  firebase_messaging: ^11.2.6
+  flutter_local_notifications: ^9.2.0
+  cloud_firestore: ^3.5.0
+  firebase_core: ^1.24.0
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+ 
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Avenir
+
+      fonts:
+        - asset: fonts/AvenirLTStd-Black.otf
+        - asset: fonts/AvenirLTStd-Book.otf
+        - asset: fonts/AvenirLTStd-Roman.otf
+    - family: proxima
+
+      fonts:
+        - asset: fonts/Proxima_Nova_Font.otf
+
